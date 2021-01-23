@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='morse-encode-example',
-    version='1.0.2',
+    version='1.0.3',
     author="Jonny Parker",
     author_email="jonny.yatesfield@gmail.com",
     packages=["morse-encode-example"],
