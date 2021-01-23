@@ -6,7 +6,6 @@ setuptools.setup(
     author="Jonny Parker",
     author_email="jonny.yatesfield@gmail.com",
     packages=["morse-encode-example"],
-    install_requires=["requests"],
     license='MIT License',
     description='A very bad Morse translator.' ,
     url="https://github.com/TheMerryMango/Morse-Encryptor",
