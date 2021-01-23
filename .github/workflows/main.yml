@@ -30,7 +30,7 @@ jobs:
           python -m bumpversion patch .bumpversion.cfg
       - name: Push changes
         run: |
-          git push origin master --tags
+          git push origin main --tags
       - name: Push to PyPI
         env:
           TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
